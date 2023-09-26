@@ -1,0 +1,39 @@
+h1 {
+    color: darkgreen;
+}
+
+.movieposter {
+    position: relative;
+    display: block;
+    height: 600px;
+}
+.posterimage_overlay {
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #ffffff;
+    text-align: left;
+    padding: 5rem;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+}
+.posterimage_overlay h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.posterimage_overlay .posterimage_runtime {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+.posterimage_overlay .posterimage_runtime .rating {
+    margin-left: 3rem;
+}
+.posterimage_description {
+    max-width: 50%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
